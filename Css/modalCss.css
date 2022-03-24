@@ -1,0 +1,230 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000000000000000000000000000000000000000000000; /* Sit on top */
+    padding:50px 0; /* Location of the box */
+    
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4) !important;*/
+    background-color: rgba(69, 42, 122,0.58);
+  }
+ .hamModal{
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */     
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(69, 42, 122,0.58);
+
+ }
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 320px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 32px;
+    overflow: hidden;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    box-shadow: rgba(14, 14, 44, 0.1) 0px 20px 36px -8px, rgba(0, 0, 0, 0.05) 0px 1px 1px;
+    border: 1px solid rgb(233, 234, 235);
+  }
+  #modalCon2{
+    width:50%;
+    border-radius: 10px;
+  }
+  @media only screen and (max-width:991px){
+    #modalCon2{
+      width:70%
+    }
+  }
+
+  @media only screen and (max-width:767px){
+    #modalCon2{
+      width:90%
+    }
+  }
+  #modalCon1, #modalCon2,.modal-content{
+      display:none;
+      position: relative;
+  }
+  #modalCon2 input{
+      width: 100%;
+  }
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #811eb8;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-header{
+      text-align:center;
+      border-bottom: 2px solid #41aeb5;
+      margin-bottom: 10px;
+  }
+  .modal-header h2{
+      margin-bottom: 5px;
+      margin-top: 10px;
+      color: #811eb8;
+  }
+  .modalInput{
+      width: 60% !important;
+  }
+  .modalLink{
+      text-decoration: underline;    
+  }
+  .modalLink:hover{
+      cursor: pointer;
+  }
+  /*End of modal */
+  /*My editing starts here*/
+ 
+  .modTopic1{
+    width: 100%;
+    position: relative;
+    margin:0;
+    padding:28px 20px;
+    border-bottom: 1px solid rgb(233, 234, 235);
+  }
+  .mTopic1{
+      font-size: 18px;
+      font-weight: 710;
+      color:#452a7a;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .mClose1{
+      position: absolute;
+      right:20px;
+      color:#1fc7d4;
+      cursor:pointer;
+  }
+  .modUl1{
+      margin:0;
+      padding:0 25px;
+      padding-top: 16px;
+      padding-bottom: 8px;
+      list-style-type: none;
+  }
+  .modUl1 li{
+    background-color: rgba(20, 126, 133,0.09);
+    padding:15px 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 710;
+    color:#1fc7d4;
+    border-radius: 15px;
+    margin-top: 8px;
+    position: relative;
+    cursor: pointer;
+  }
+  .modUl1 li:hover{
+    background-color: rgba(150, 150, 150,0.09);;
+  }
+  .modUl1 li img{
+    position: absolute;
+    right:21px;
+    top:7px;
+  }
+  .modFoot{
+      text-align: center;
+      padding-bottom: 10px;
+      position: relative;
+  }
+  .modFoot img{
+    position:relative;
+    top:2px;
+  }
+  .modFoot span{
+    font-size: 14px;
+    font-weight: 710;
+    color:#1fc7d4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+  }
+  .modDivBody{
+    padding: 20px 24px;
+    
+  }
+  .modInp{
+    width:100%;
+    padding:7px;
+    border-radius: 5px;
+    border:1px solid rgb(233, 234, 235);
+    font-size: 16px;
+  }
+  .modArea{
+    width:100%;
+    min-height:100px;
+    border-radius: 5px;
+    border:1px solid rgb(233, 234, 235);
+    padding: 10px 20px;
+  }
+  .modArea:focus{
+    border:0px;
+  }
+  .modTypePara{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 720;
+    color:#888;
+    text-align: left;
+    margin:0;
+  }
+  .modBtn{
+    margin:0;
+    text-align: center;
+    padding:0 24px 30px 24px;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  .modBtnSpan{
+    width:100%;
+    display: inline-block;
+    padding:16px 0;
+    font-size: 17px;
+    font-weight: 720;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1fc7d4;
+    color:white;
+    border-radius: 12px;
+    box-shadow: inset 0px -1px 0px rgba(14, 14, 44, 0.4);
+  }
+  @media only screen and (max-width:767px){
+      .modal{
+        padding:0px 0px;
+      }
+  }
+
+  

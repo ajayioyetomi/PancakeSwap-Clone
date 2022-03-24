@@ -1,0 +1,54 @@
+.viewContainer{
+    padding:0 3%;
+}
+.viewContent{
+    border:1px solid lightgray;
+}
+.reportPara{
+    position: relative;
+    padding:10px;
+    margin:0;
+}
+.totalSpan{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width:100%;
+    border:1px solid rgb(118, 69, 217);
+    padding:30px;
+    border-collapse: collapse;
+
+}
+th,td{
+    text-align:left;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    border:1px solid rgb(118, 69, 217);
+    font-size: 14px;
+}
+.pTitle{
+    background-color: #452a7a;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding:30px;
+    margin:0;
+    font-size: 20px;
+    z-index: 10000;
+    position: relative;
+
+}
+.del{
+    cursor: pointer;
+}
+.del:hover{
+    text-decoration: underline;
+    color:#452a7a;
+}
+@media only screen and (max-width:767px){
+    .pTitle{
+        text-align: center;
+    }
+}

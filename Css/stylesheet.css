@@ -1,0 +1,824 @@
+.body{
+    overflow-x: hidden !important;
+}
+.navBarDiv{
+    padding:12px 0;
+    background-color: #ffffff;
+    border-bottom: solid 2px rgba(133, 133, 133, 0.1);
+    position: fixed;
+    z-index: 1000000;
+    height: 65px;
+    overflow-x: hidden;
+    
+}
+.logoDiv{
+    text-align: left;
+    padding-left:20px ;
+}
+.logo{
+    position: absolute;
+    left:68px;
+    top:17px;
+    width:155px;
+    height:25px;
+}
+.logo2{
+    display: none;
+    position: absolute;
+    left:62px;
+    top:5px;
+    width:50px;
+    height:50px; 
+}
+.connectDiv{
+    position: absolute;
+    text-align: right;
+    padding-right: 20px;
+    right:0px;
+    top:16px;
+}
+.connectSpan{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding:8px 15px;
+    background-color: #1fc7d4;
+    border: 0;
+    border-radius: 16px;
+    box-shadow: inset 0px -1px 0px rgba(14, 14, 44, 0.4);
+    color: #ffffff;
+    top:0px;
+    right:63px;
+}
+.connectSpan:hover{
+    background-color: #64dfe8;
+    cursor: pointer;
+}
+.profileImg{
+    cursor: pointer;
+}
+.hamImg{
+    margin-top: 10px;
+}
+#divNavContainer{
+    height:100%;
+    width: 240px;
+    position: fixed;
+    left:0px;
+    border-right: solid 2px rgba(133, 133, 133, 0.1);
+    z-index: 1000;
+    background-color: white;
+    top:0px;   
+    padding-top: 60px;
+
+}
+.proSpan{
+    display: inline-block;
+    width:8px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #ed4b9e;
+    right:20px;
+    top:0px !important;
+}
+.navUl{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+    margin-top:18px;
+    text-align: left;
+    height: 80%;
+    overflow-x: hidden !important;
+    overflow-y: scroll;
+
+}
+.navUl li{
+    padding:15px 16px;
+    height:50px !important;
+    padding:0px !important;
+    cursor: pointer;
+}
+.navUl li:hover{
+    background-color: rgba(20, 126, 133,0.09);
+}
+.navUl li a{
+    font-size: 15px;
+    color:#8f80ba;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.navUl li a,.navUl li img:first-child{
+    position: relative;
+    top:15px;
+    left:17px;
+}
+.navUl li a{
+    position: relative;
+    top:15px;
+    left:18px;
+}
+.navUl li img:last-child{
+    position: relative;
+    top:17px;
+    left:115px;
+}
+.navUl > li:nth-child(8) img:last-child{
+    position: relative;
+    top:17px;
+    left:27px;
+}
+
+.divSetting{
+    border-top: 2px solid rgba(133, 133, 133, 0.1);
+    padding:18px;
+    
+}
+.activeClass{
+    border-left: 4px solid #1fc7d4;
+}
+.divPrice{
+    cursor: pointer;
+}
+.divPrice > .lowCakeImg:hover{
+    transform: scale(1.2);
+}
+
+.lowCakeImg{
+    width:25px;
+    height: 25px;
+}
+.lowPrice{
+    position: relative;
+    top:-5px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px 5px 10px 5px ;
+    color:#8f80ba;
+}
+.social{
+    position: relative;
+}
+.telSpan{
+    position: absolute;
+    left: 130px;
+    top:-20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.twiImg{
+    position: absolute;
+    right:0px;
+    top:3px;   
+}
+.langDiv{
+    position: relative;
+    margin-top:15px;
+    padding-left: 25px;
+}
+.nightImg{
+    position: absolute;
+    right:0px;   
+}
+.langSpan{
+    position: absolute;
+    left:133px;  
+    padding-top: 10px;
+    top:-8px; 
+    cursor: pointer;
+    margin-bottom: 10px;
+    z-index: 100000000000000000000000000000;
+}
+.langTxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:#8f80ba;
+    position: relative;
+    top:-3px;
+    right:5px;
+}
+settingsDiv{
+    position: relative;
+}
+.allow{
+    display: none;
+}
+.allow img{
+    position: absolute;
+    left:20px;
+
+}
+
+.telSpan{
+    padding-top: 20px;
+}
+.telDiv{
+    position: absolute;
+    bottom: 25px;
+    left:-55px;
+    background-color: white;
+    border-radius: 4px;
+    padding:15px 20px;
+    box-shadow: rgba(25, 19, 38, 0.1) 0px 2px 12px -8px, rgba(25, 19, 38, 0.05) 0px 1px 1px;
+    display: none;
+}
+
+.telUl{
+    padding:0px;
+    margin:0px;
+    list-style-type: none;
+}
+.telUl li{
+    padding:1px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color:#8f80ba;
+    cursor: pointer;
+}
+.telUl li:hover{
+    text-decoration: underline;
+}
+.divLang{
+    position: absolute;
+    bottom:30px;
+    padding:15px 20px;
+    box-shadow: rgba(25, 19, 38, 0.1) 0px 2px 12px -8px, rgba(25, 19, 38, 0.05) 0px 1px 1px;
+    max-height: 500px;
+    overflow-y: scroll;
+    background-color: white;
+    color:#452a7a;
+    left: -30px;
+    display: none;
+
+}
+.ulLang{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+.ulLang li{
+    padding:7px 25px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ulLang li:hover{
+    color:#8f80ba;
+}
+#divMainContainer{
+    margin-left:240px;
+    max-width: calc(100%-240px);
+    padding-top:65px;
+   
+}
+.noticeDiv{
+    padding:38px 3%;
+    background: rgb(69, 42, 122) none repeat scroll 0% 0%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 4px inset;
+    color:white;
+    position: relative;
+}
+.notice{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+   
+}
+
+.actionDiv2{
+    width:calc(100% - 50px);
+    position: relative;
+    margin-left: 45px;
+    line-height: 1.6;
+}
+.noticeIcon{
+    position: absolute;
+    top:calc(45% - 10px);
+}
+.notice2{
+    text-align: right;
+    padding-right: 20px;
+    position: relative;
+}
+.toggleBtn{
+    font-size: 16px;
+    color:rgb(31, 199, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;   
+}
+.detailIcon{
+    position:relative;
+    top:-2px;
+}
+
+.noticeDetails{
+    padding-left:40px;
+    display: none;
+   
+}
+.nPara1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 178, 55);
+    margin: 10px 0 0 0;
+}
+.nPara2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+}
+.nPara3{
+    padding-top: 20px;
+}
+.migSpan1{
+    color:white;
+    background-color: #1fc7d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding:16px 24px;
+    border-radius: 16px;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    cursor: pointer;
+
+}
+.firstCon{
+    height:230px;
+    background-color: #faf9fa;
+    position: relative;
+}
+.con1,.con2,.con3{
+    height: 230px;
+    position: relative;
+}
+.con2{
+    z-index: 10;
+}
+.con1 > img{
+    position: absolute;
+    top:50px;
+    left:15px;
+}
+.con3 > img{
+    position: absolute;
+    top:50px;
+    right:27px;
+}
+.conPara1{
+    margin:0;
+    padding-top:70px;
+    text-align: center;
+}
+.conPara2{
+    margin:0;
+    padding-top: 25px;
+    text-align: center;
+}
+.conPara1 span{
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:#7645d9;
+}
+.conPara2 span{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:#452a7a;
+}
+.secondCon{
+    background-color: #faf9fa;
+    
+}
+.secondCon > div:first-child{
+    padding:0 18px 0 30px;
+}
+.secondCon > div:last-child{
+    padding:0 30px 0 18px;
+}
+.secondCon > div:first-child > div,.secondCon > div:last-child > div{
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: rgba(25, 19, 38, 0.1) 0px 2px 12px -8px, rgba(25, 19, 38, 0.05) 0px 1px 1px;
+}
+.secondCon > div:first-child > div > div{
+    background-image: url("../Images/panCover1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 376px;
+    border-radius: 32px;
+    padding-left: 21px;
+}
+.secondCon > div:last-child > div{
+    background-image: url("../Images/panCover2.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    min-height: 376px;
+    border-radius: 32px;
+    padding-left: 21px;
+}
+
+.panTopic1{
+    margin-top: 0;
+    padding-top: 32px;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+    
+}
+.cakeDiv{
+    padding-top:5px;
+}
+.cakeSpan{
+    font-size: 13px;
+    color:#8f80ba;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.lockDiv{
+    padding-top: 27px;
+}
+.lockSpan{
+    font-size: 15px;
+    color:#bdc2c4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.cakeDiv2{
+    padding-top:50px;
+}
+.cakeSpan2{
+    font-size: 13px;
+    color:#8f80ba;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.lockDiv2{
+    padding-top: 17px;
+}
+.lockSpan2{
+    font-size: 15px;
+    color:#bdc2c4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.unlockPara1{
+    margin:0;
+    padding:35px 0 20px 0;
+    text-align: center;
+    margin-right: 20px;
+}
+.unlockPara2{
+    margin:0;
+    padding:21px 0 20px 0;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.unlockSpan1{
+    display: inline-block;
+    padding:15px 0;
+    background-color: rgb(31, 199, 212);
+    color: white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 16px;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+}
+.unlockSpan1:hover{
+    background-color: #64dfe8;
+    cursor: pointer;
+}
+.jackDiv{
+    padding-top: 8px;
+}
+.jackSpan{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+
+}
+.jackSpan2{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+}
+.jackDiv2{
+    padding-top:1px;
+}
+.jack2Span{
+    font-size: 13px;
+    color:#8f80ba;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+.thirdCon{
+    padding: 17px 22px;
+}
+.thirdCon > div{
+    padding:10px;
+    position: relative;
+}
+.thirdCon > div > div{
+    min-height: 170px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 32px;
+    box-shadow: rgba(25, 19, 38, 0.1) 0px 2px 12px -8px, rgba(25, 19, 38, 0.05) 0px 1px 1px;
+    padding:30px 24px 45px 24px;
+}
+.thirdCon > div:nth-child(2) > div{
+    min-height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 32px;
+    box-shadow: rgba(25, 19, 38, 0.1) 0px 2px 12px -8px, rgba(25, 19, 38, 0.05) 0px 1px 1px;
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(83, 222, 233), rgb(118, 69, 217)) repeat scroll 0% 0%;
+    padding:30px 24px 45px 24px;
+
+}
+.hTwo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    margin-top: 5px;
+    color:rgb(25, 19, 38);
+    font-size: 24px;
+}
+.hTwo:nth-child(3){
+    margin-top:0;
+}
+.hOne{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(118, 69, 217);
+    font-size: 33px;
+}
+.hOne2{
+    color:white;
+}
+.t{
+    font-size: 70%;
+}
+.arrImg{
+    position: absolute;
+    bottom: 45px;
+    right: 50px;
+    cursor: pointer;
+}
+.forthCon{
+    padding: 17px 22px; 
+}
+.forthCon > div{
+    padding:10px;
+    position: relative;
+}
+.forthCon > div > div{
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 32px;
+    box-shadow: rgba(25, 19, 38, 0.1) 0px 2px 12px -8px, rgba(25, 19, 38, 0.05) 0px 1px 1px;
+    padding:30px 24px 40px 24px;
+}
+.csPara{
+    margin:0;
+    text-align: left;
+}
+.csSpan{
+    font-size: 33px;
+    font-weight: 720;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+}
+.csPara1{
+    margin:0;
+    text-align: left;
+    padding-top: 20px;
+}
+.csSpan1{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+    font-weight: 600;
+}
+.csSpan1b{
+    float: right;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+    font-weight: 600;
+}
+.csPara2{
+    margin:0;
+    text-align: left;
+    padding-top: 8px;   
+}
+.csSpan2{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+    font-weight: 600;
+}
+.csSpan2b{
+    float: right;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+    font-weight: 600;
+}
+.csPara3{
+    margin:0;
+    text-align: left;
+    padding-top: 8px;   
+}
+.csSpan3{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+    font-weight: 600;
+}
+.csSpan3b{
+    float: right;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#452a7a;
+    font-weight: 600;
+}
+.cPara{
+    margin:0;
+}
+.cPara1{
+    padding-top:5px;
+}
+.cSpan1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 730;
+    color:#452a7a;
+    
+}
+.cPara2{
+    padding-top: 25px;
+}
+.cSpan2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 730;
+    color:#452a7a;
+}
+.cPara3{
+    padding-top: 5px;
+}
+.cSpan3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:#8f80ba;
+}
+.pImg1,.pImg2{
+    position: absolute;
+}
+.pImg1{
+    left:45%;
+    top:10px;
+    display: none;
+}
+.pImg2{
+    right:45%;
+    top:10px;
+    display: none;
+}
+@media only screen and (min-width:768px){
+    .navUl{
+        height: 80%;
+    }
+    #divNavContainer{
+        width:240px;
+    }
+    #divMainContainer{
+        margin-left: 240px;
+        max-width: calc(100% - 240px);
+    }
+}
+@media only screen and (max-width:850px){
+    #divNavContainer{
+        width:58px;
+    }
+    .navUl li > a,.navUl li > img:last-child{
+        display: none;
+    }
+    .navUl{
+        height: 88%;
+    }
+    #divMainContainer{
+        margin-left: 58px;
+        max-width: calc(100% - 58px);
+    }
+    .rem{
+        display:none;
+    }
+    .allow{
+        display: none;
+    }
+}
+@media only screen and (max-width:767px){
+    .logo{
+        display: none;
+    }
+    .logo2{
+        display: block;
+    }
+    .navUl{
+        height : 62%;
+    }
+    .actionDiv2{
+        padding-right: 15%;
+    }
+    .notice{
+        padding-left: 23px;
+    }
+    .noticeDetails{
+        margin-left: 23px;
+        padding-right: 20px;
+    }
+    .panTopic1{
+        font-size: 25px;
+    }
+    .con2{
+        padding-top: 50px;
+    }
+    .panImg,.panImg2{
+        display: none;
+    }
+    .secondCon > div:first-child,.secondCon > div:last-child{
+        padding:0 20px;
+    }
+    .secondCon > div:last-child{
+        padding-top:20px;
+    }
+    #divNavContainer{
+        width:0px;
+    }
+    #divMainContainer{
+        margin-left: 0px;
+        max-width: calc(100% - 0px);
+    }
+    .thirdCon{
+        padding: 17px 12px;
+    }
+    .pImg1{
+        left:35%;
+        top:60px;
+        display: block;
+    }
+    .pImg2{
+        right:32%;
+        top:60px;
+        display: block;
+    }
+   
+    
+}
+.mainContent{
+    background-color: #faf9fa;
+    padding-bottom: 35px;
+}
+.DivContainer{
+    overflow-x: hidden;
+}
+@media only screen and (min-width:767px) and (max-width:1180px) {
+    .secondCon > div:first-child > div > div{
+        height: 492px;
+    }
+}
+@media only screen and (min-width:767px) and (max-width:950px) {
+    .h{
+        font-size: 15px;
+    }
+    .hh{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:550px){
+    .pImg1{
+        left:20%;
+    }
+    .pImg2{
+        right:20%;
+    }
+}
